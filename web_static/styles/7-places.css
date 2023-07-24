@@ -1,0 +1,21 @@
+.places {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item-1 {
+    grid-column-start: 1;
+}
+.places > h1 {
+    font-size: 30px;
+}
+
+.places > article {
+    max-width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff5a5f;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+}
